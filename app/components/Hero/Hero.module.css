@@ -1,0 +1,48 @@
+.hero {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 3rem;
+  width: 35rem;
+  margin: 1rem auto;
+}
+
+.line {
+  display: flex;
+}
+
+.text {
+  flex: 0 1 auto;
+}
+
+.erased {
+  flex: 1 1 auto;
+  height: 3rem;
+  display: inline-flex;
+  background-color: var(--color-black);
+  margin: 12px 12px 0;
+}
+
+.left {
+  margin-left: 0;
+}
+
+.right {
+  margin-right: 0;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    width: 80%;
+    font-size: 2rem;
+  }
+
+  .erased {
+    height: 2rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    font-size: 2rem;
+  }
+}
