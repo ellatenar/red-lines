@@ -5,7 +5,7 @@ import Image from "next/image"
 import styles from "./Nav.module.css"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
-import pointer from "../../images/pointer.svg"
+import pointer from "@/public/images/pointer.svg"
 import { garamond } from "@/app/fonts"
 import classNames from "classnames"
 

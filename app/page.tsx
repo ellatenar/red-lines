@@ -1,7 +1,5 @@
 import styles from "./page.module.css"
-import Nav from "./components/Nav"
-import Ruler from "./components/Ruler"
-import background from "./images/background.png"
+import background from "@/public/images/background.png"
 import NextBgImage from "next-bg-image"
 import Hero from "./components/Hero"
 import { garamond, unica } from "./fonts"

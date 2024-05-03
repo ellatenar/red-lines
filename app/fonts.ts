@@ -7,6 +7,6 @@ export const garamond = EB_Garamond({
 })
 
 export const unica = localFont({
-  src: "../public/unica.woff2",
+  src: "../public/fonts/unica.woff2",
   display: "swap",
 })
