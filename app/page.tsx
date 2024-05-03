@@ -4,6 +4,7 @@ import { unica } from "./fonts"
 import classNames from "classnames"
 import SectionDark from "./components/SectionDark"
 import SectionLight from "./components/SectionLight"
+import PullQuote from "./components/PullQuote"
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <SectionDark>
         <h1 className={unica.className}>Red Lines</h1>
         <Hero />
-        <i>
+        <div className={styles.intro}>
           In the months since October 7, Western media workers have faced a wave
           of retaliation for speaking up against or critically covering Israel’s
           war on Gaza—and in particular, for voicing support for Palestinians.
@@ -19,7 +20,7 @@ export default function Home() {
           behind the phenomenon, the National Writers Union tracked 44 cases of
           retaliation that impacted more than 100 media workers, who are
           disproportionately people of color.
-        </i>
+        </div>
         <h3 className={classNames(styles.subheader, unica.className)}>
           About This Report
         </h3>
@@ -74,11 +75,11 @@ export default function Home() {
             George Floyd in 2020—have fallen short in this ongoing crisis or
             were superficial all along.
           </p>
-          <span className={classNames(styles.pullQuoteRight, unica.className)}>
+          <PullQuote right>
             While the report’s findings are not comprehensive, they offer a
             window into what is likely a much more widespread, systemic
             phenomenon.
-          </span>
+          </PullQuote>
           <p>
             The range of cases compiled in this report were drawn from news
             reports, social media posts, phone calls, and/or messages exchanged
@@ -208,7 +209,9 @@ export default function Home() {
           </p>
         </div>
 
-        <h4>More Information and Opportunities for Action:</h4>
+        <h3 className={classNames(styles.subheader, unica.className)}>
+          More Information and Opportunities for Action:
+        </h3>
         <div>
           For updates on the Freelance Solidarity Project’s organizing around
           retaliation and violence against media workers, sign up{" "}

@@ -18,3 +18,12 @@
 .darkContainerContent p {
   margin: 1rem 0;
 }
+
+.darkContainerContent h3:first-child,
+.darkContainerContent p:first-child {
+  margin-top: 0;
+}
+
+.darkContainerContent p:last-child {
+  margin-bottom: 0;
+}

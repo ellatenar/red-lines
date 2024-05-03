@@ -7,6 +7,7 @@ import graphic2 from "@/public/images/graphic2.png"
 import graphic3 from "@/public/images/graphic3.png"
 import SectionDark from "../components/SectionDark"
 import SectionLight from "../components/SectionLight"
+import PullQuote from "../components/PullQuote"
 
 export default function Data() {
   return (
@@ -122,7 +123,7 @@ export default function Data() {
           </a>
           , an{" "}
           <a href="https://theintercept.com/2023/10/26/axel-springer-fires-employee-israel/">
-            apprentic
+            apprentice
           </a>
           , a{" "}
           <a href="https://rabble.ca/politics/canadian-politics/palestinian-journalist-fired-from-ctv-for-pro-palestine-activism/">
@@ -166,7 +167,7 @@ export default function Data() {
           <a href="https://www.instagram.com/reel/Cy_YCzYLGpc/">posted</a> to
           Instagram. “Is this ethical or moral, humane or diverse or inclusive?”
         </p>
-        <span className={pageStyles.pullQuoteLeft}>
+        <PullQuote left>
           <q>
             Global was literally asking me to look at these horrific images,
             this genocide, and detach myself from my identity, my own people,
@@ -175,7 +176,7 @@ export default function Data() {
           </q>
           <br />
           —Zahraa Al-Akhrass
-        </span>
+        </PullQuote>
         <p>
           Some media workers were coerced or pressured by their employers to
           resign after expressing concern regarding Israeli state violence. A
@@ -230,14 +231,14 @@ export default function Data() {
           publishers stated publicly or privately that they would no longer work
           with certain freelancers because of their speech on Palestine.
         </p>
-        <span className={pageStyles.pullQuoteRight}>
+        <PullQuote right>
           <q>
             If an institution is not willing to give you a job, then what do you
             owe them? ... In some way, it was a small amount of protest over the
             labor conditions in the industry at large.”
           </q>
           - Jamie Lauren Keiles
-        </span>
+        </PullQuote>
         <p>
           One U.S. freelancer, who requested anonymity, told NWU that a local
           outlet she regularly wrote for killed three of her stories after she
@@ -319,6 +320,117 @@ export default function Data() {
           influence our reporting on news events,” he said.
         </p>
       </SectionDark>
+      <SectionLight>
+        <h3>Cancellation of Appearances and Events; Awards Rescinded</h3>
+        <p>
+          At least 10 media workers have had public appearances canceled or
+          postponed. Most of the event cancellations appear to be responses to
+          perceived appearance of antisemitism or insensitivity to those in
+          Israel affected by the October 7 attack.
+        </p>
+        <p>
+          Just hours before a scheduled book talk in October with Pulitzer
+          Prize-winning author Viet Thanh Nguyen, the 92nd Street Y, a New York
+          cultural and community center, “postponed” the event. The institution
+          <a href="https://www.reuters.com/world/us/pulitzer-winner-who-backs-palestinians-says-talk-canceled-by-ny-jewish-2023-10-21/">
+            referenced
+          </a>{" "}
+          “the public comments by the invited author on Israel and this moment.”
+          Nguyen had signed an{" "}
+          <a href="https://www.instagram.com/viet_t_nguyen/p/CyjKxFjuyyx/?img_index=1">
+            open letter
+          </a>{" "}
+          criticizing Israel in the London Review of Books two days prior.
+        </p>
+        <p>
+          Other events were canceled on account of alleged security threats or
+          after{" "}
+          <a href="https://pen.org/press-release/even-in-times-of-war-art-must-not-be-canceled/">
+            interventions
+          </a>{" "}
+          by{" "}
+          <a href="https://twitter.com/freedom_theatre/status/1712440518880153934">
+            public officials
+          </a>
+          . The London venue Conway Hall, for example, planned to host the
+          launch of Jewish American journalist Nathan Thrall’s book—a work of
+          nonfiction platforming Palestinian voices—but the venue{" "}
+          <a href="https://www.washingtonpost.com/books/2023/11/02/nathan-thrall-book-events-cancelled/">
+            called off
+          </a>{" "}
+          the event after being contacted by the Metropolitan Police.{" "}
+        </p>
+        <p>
+          Planned televised appearances have also been canceled. In one case,
+          CBS live-streamed an interview with Palestinian American legal scholar
+          and author Noura Erakat about Israeli human rights violations in Gaza.
+          The clip was never posted on CBS’s website, although this would be the
+          company’s typical practice, because it was{" "}
+          <a href="https://jewishcurrents.org/major-news-networks-sideline-palestinian-analysts">
+            viewed
+          </a>{" "}
+          as being too combative, according to a report by Jewish Currents.{" "}
+        </p>
+        <p>
+          German institutions have been particularly aggressive in{" "}
+          <a href="https://www.spiegel.de/kultur/literatur/sharon-dodua-otoo-stadt-bochum-hat-preisverleihung-wegen-moeglicher-bds-naehe-ausgesetzt-a-0af3d803-b889-49af-9c10-94b885615e64">
+            canceling
+          </a>{" "}
+          events and awards. In October, the Palestinian writer Adania Shibli
+          won the German Literaturpreis for her novel Minor Detail, which
+          follows a Palestinian narrator researching a historical incident of
+          violence against a Palestinian woman. The literary association Litprom{" "}
+          <a href="https://www.nytimes.com/2023/10/13/books/frankfurt-book-fair-cancels-award-adania-shibli.html">
+            canceled
+          </a>{" "}
+          the award ceremony “due to the war in Israel.” In another similar
+          incident, the Heinrich Böll Foundation and the city of Bremen canceled
+          an awards ceremony at which author Masha Gessen, who is Jewish, was to
+          receive the Hannah Arendt Prize, after Gessen{" "}
+          <a href="https://www.newyorker.com/news/the-weekend-essay/in-the-shadow-of-the-holocaust">
+            published
+          </a>{" "}
+          an essay in the New Yorker comparing Gaza to a Nazi ghetto.
+        </p>
+        <PullQuote left>
+          <q>
+            I would not want to be part of another institution which not only
+            cancels artists because of their activism, but seems to think
+            silence and censorship is the right answer to genocide.
+          </q>{" "}
+          —Lana Bastašić
+        </PullQuote>
+        <p>
+          NWU documented two cases in which awards were rescinded for
+          pro-Palestinian speech. After the Bosnian-Serbian novelist Lana
+          Bastašić{" "}
+          <a href="https://www.theguardian.com/world/2024/jan/15/novelist-lana-bastasic-breaks-with-german-publisher-cultural-boycott-israel-gaza#:~:text=Lana%20Basta%C5%A1i%C4%87%2C%2037%2C%20who%20won,genocide%20happening%20in%20Gaza%E2%80%9D%2C%20as">
+            cut ties
+          </a>{" "}
+          with her German publisher over its silence regarding “the ongoing
+          genocide,” the Austrian literary organizations Literaturhaus NÖ and
+          Literaturfest Salzburg{" "}
+          <a href="https://lithub.com/read-novelist-lana-bastasics-blazing-response-to-yet-another-act-of-literary-censorship/">
+            revoked
+          </a>{" "}
+          her planned residency and reading. “Thank you for uninviting me. I
+          would not want to be part of another institution which not only
+          cancels artists because of their activism, but seems to think silence
+          and censorship is the right answer to genocide,” Bastašić replied.
+        </p>
+        <p>
+          In a telling twist, French Moroccan journalist Zineb El Rhazoui{" "}
+          <a href="https://www.tingismagazine.com/editorials/zinebs-war-on-islamic-fascism/">
+            received
+          </a>{" "}
+          the 2019 Simone Weil prize for her controversial criticism of Islam
+          and defense of French secularism, but the award was{" "}
+          <a href="https://www.barrons.com/news/french-journalist-stripped-of-award-over-israel-comments-deb6c69e">
+            rescinded
+          </a>{" "}
+          in December for her public criticism of Israeli attacks on Gaza.
+        </p>
+      </SectionLight>
     </main>
   )
 }

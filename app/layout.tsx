@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import Nav from "./components/Nav"
 import Ruler from "./components/Ruler"
-import { garamond } from "./fonts"
+import { garamond, unica } from "./fonts"
 
 export const metadata: Metadata = {
   title: "Red Lines",
@@ -30,7 +30,7 @@ export default function RootLayout({
         <Ruler />
         {children}
         <footer>
-          <div>THIS IS THE FOOTER</div>
+          <div className={unica.className}>Footer: Colophon, etc?</div>
         </footer>
       </body>
     </html>

@@ -16,7 +16,7 @@
 }
 
 .heroText {
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
 }
 
 .firstWord {
@@ -30,8 +30,8 @@
   background-color: var(--color-black);
 }
 
-@media (max-width: 811px) {
+@media (max-width: 880px) {
   .hero {
-    text-align: unset;
+    text-align: left;
   }
 }

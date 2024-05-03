@@ -1,13 +1,5 @@
-.pullQuoteRight {
-  float: right;
-  width: 20rem;
-  font-weight: 600;
-  padding: 2rem 0 2rem 2rem;
-}
-
-.pullQuoteLeft {
-  float: left;
-  width: 20rem;
-  font-weight: 600;
-  padding: 2rem 2rem 2rem 0;
+.intro {
+  font-style: italic;
+  margin: 2rem 0;
+  font-size: 1.1rem;
 }

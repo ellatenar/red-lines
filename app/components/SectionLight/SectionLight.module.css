@@ -17,3 +17,12 @@
   color: var(--color-black);
   margin-top: 0;
 }
+
+.lightContainerContent h3:first-child,
+.lightContainerContent p:first-child {
+  margin-top: 0;
+}
+
+.lightContainerContent *:last-child {
+  margin-bottom: 0;
+}
