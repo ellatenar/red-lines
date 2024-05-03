@@ -2,6 +2,7 @@
   width: 20rem;
   font-weight: 600;
   padding: 2rem;
+  font-size: 1.6rem;
 }
 
 .pullQuoteRight {
@@ -12,12 +13,6 @@
 .pullQuoteLeft {
   float: left;
   padding-left: 0;
-}
-
-@media (max-width: 880px) {
-  .pullQuote {
-    width: 12rem;
-  }
 }
 
 @media (max-width: 880px) {

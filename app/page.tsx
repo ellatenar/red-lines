@@ -133,16 +133,6 @@ export default function Home() {
             inflicting on journalists in the entire Occupied Palestinian
             Territory and the surrounding region.
           </p>
-        </div>
-      </SectionDark>
-      <SectionLight>
-        <b>
-          While the report’s findings are not comprehensive, they offer a window
-          into what is likely a much more widespread, systemic phenomenon.
-        </b>
-      </SectionLight>
-      <SectionDark>
-        <div>
           <p>
             The range of cases compiled in this report were drawn from news
             reports, social media posts, phone calls, and/or messages exchanged
@@ -182,7 +172,8 @@ export default function Home() {
           </p>
           <p>
             As this report goes live, at least 102 Palestinian, four Israeli,
-            and three Lebanese media workers have been killed in the region
+            and three Lebanese media workers have been{" "}
+            <a href="https://www.ifj.org/war-in-gaza">killed</a> in the region
             since October 7, according to the International Federation of
             Journalists (IFJ). The Israeli military has shown a blatant
             disregard for the lives of media workers in Gaza. In fact, there is

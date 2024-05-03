@@ -1,19 +1,30 @@
 /* eslint-disable react/no-unescaped-entities */
 import { unica } from "../fonts"
-import pageStyles from "../page.module.css"
+import styles from "./Data.module.css"
 import Image from "next/image"
-import graphic1 from "@/public/images/graphic1.png"
-import graphic2 from "@/public/images/graphic2.png"
-import graphic3 from "@/public/images/graphic3.png"
+import graphic1 from "@/public/images/retaliation_graphic_who.png"
+import graphic2 from "@/public/images/retaliation_graphic_how_many.png"
+import graphic3 from "@/public/images/retaliation_graphic_what_forms.png"
 import SectionDark from "../components/SectionDark"
 import SectionLight from "../components/SectionLight"
 import PullQuote from "../components/PullQuote"
 
 export default function Data() {
   return (
-    <main className={pageStyles.main}>
+    <main>
       <SectionDark>
         <h1 className={unica.className}>The Data</h1>
+        <div className={styles.graphicsContainer}>
+          <div className={styles.graphic}>
+            <Image src={graphic1} alt="" layout="fill" objectFit="contain" />
+          </div>
+          <div className={styles.graphic}>
+            <Image src={graphic2} alt="" layout="fill" objectFit="contain" />
+          </div>
+          <div className={styles.graphic}>
+            <Image src={graphic3} alt="" layout="fill" objectFit="contain" />
+          </div>
+        </div>
         <h3 className={unica.className}>Summary of Results</h3>
         <p>
           NWU’s investigation identified widespread retaliation against media
@@ -111,8 +122,6 @@ export default function Data() {
           The following sections discuss the results in greater detail and
           highlight some central themes, takeaways, and recommendations.
         </p>
-      </SectionDark>
-      <SectionLight>
         <h3 className={unica.className}>
           Termination, Resignation, and Cancellation of Assignments
         </h3>
@@ -266,8 +275,6 @@ export default function Data() {
           </a>{" "}
           legal action against the company.
         </p>
-      </SectionLight>
-      <SectionDark>
         <h3 className={unica.className}>Assignment Restrictions</h3>
         <p>
           Restricting the assignments of media workers perceived as biased was
@@ -319,9 +326,10 @@ export default function Data() {
           strong-held tenet that our journalists’ personal agendas do not
           influence our reporting on news events,” he said.
         </p>
-      </SectionDark>
-      <SectionLight>
-        <h3>Cancellation of Appearances and Events; Awards Rescinded</h3>
+
+        <h3 className={unica.className}>
+          Cancellation of Appearances and Events; Awards Rescinded
+        </h3>
         <p>
           At least 10 media workers have had public appearances canceled or
           postponed. Most of the event cancellations appear to be responses to
@@ -430,7 +438,7 @@ export default function Data() {
           </a>{" "}
           in December for her public criticism of Israeli attacks on Gaza.
         </p>
-      </SectionLight>
+      </SectionDark>
     </main>
   )
 }

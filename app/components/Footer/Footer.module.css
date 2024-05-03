@@ -1,0 +1,26 @@
+.footer {
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-emphasis);
+  font-style: italic;
+  padding: 12px;
+}
+
+.footer > div {
+  width: 70%;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer > div > div:nth-child(1) {
+  margin-left: 0;
+}
+
+.footer > div > div:nth-child(2) {
+  margin-left: 22%;
+}
+
+.footer > div > div:nth-child(3) {
+  margin-left: 44%;
+}

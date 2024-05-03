@@ -3,6 +3,7 @@ import "./globals.css"
 import Nav from "./components/Nav"
 import Ruler from "./components/Ruler"
 import { garamond, unica } from "./fonts"
+import Footer from "./components/Footer"
 
 export const metadata: Metadata = {
   title: "Red Lines",
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 const links = [
   { name: "Home", href: "/" },
   { name: "Data", href: "/data" },
+  { name: "Violent Repression", href: "/violent-repression" },
   { name: "Discussion", href: "/discussion" },
   { name: "Recommendations", href: "/recommendations" },
   { name: "Methodology", href: "/methodology" },
@@ -29,9 +31,7 @@ export default function RootLayout({
         <Nav links={links} />
         <Ruler />
         {children}
-        <footer>
-          <div className={unica.className}>Footer: Colophon, etc?</div>
-        </footer>
+        <Footer />
       </body>
     </html>
   )

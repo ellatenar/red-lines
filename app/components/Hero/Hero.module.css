@@ -35,3 +35,18 @@
     text-align: left;
   }
 }
+
+@media (max-width: 660px) {
+  .hero {
+    font-size: 1.7rem;
+    padding: 0.25rem 0;
+  }
+
+  .firstWord {
+    font-size: 2rem;
+  }
+
+  .heroText {
+    padding: 1rem 0 1.5rem;
+  }
+}
