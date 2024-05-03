@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import Nav from "./components/Nav"
 import Ruler from "./components/Ruler"
+import { garamond } from "./fonts"
 
 export const metadata: Metadata = {
   title: "Red Lines",
@@ -12,7 +13,6 @@ export const metadata: Metadata = {
 const links = [
   { name: "Home", href: "/" },
   { name: "Data", href: "/data" },
-  { name: "Violent Repression", href: "/violent-repression" },
   { name: "Discussion", href: "/discussion" },
   { name: "Recommendations", href: "/recommendations" },
   { name: "Methodology", href: "/methodology" },
@@ -25,10 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={garamond.className}>
         <Nav links={links} />
         <Ruler />
         {children}
+        <footer>
+          <div>THIS IS THE FOOTER</div>
+        </footer>
       </body>
     </html>
   )

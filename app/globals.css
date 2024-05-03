@@ -36,8 +36,50 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+h1 {
+  color: var(--color-white);
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0.5rem 0 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+h3 {
+  font-style: italic;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-red);
+  width: fit-content;
+  margin: 1rem 0;
+}
+
 a {
   color: var(--color-red);
+}
+
+footer {
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-emphasis);
+  font-style: italic;
+  padding: 12px;
+}
+
+footer div {
+  width: 70%;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (prefers-color-scheme: dark) {

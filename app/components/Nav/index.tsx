@@ -2,12 +2,10 @@
 
 import Link from "next/link"
 import Image from "next/image"
+import pointer from "@/public/images/pointer.svg"
 import styles from "./Nav.module.css"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
-import pointer from "@/public/images/pointer.svg"
-import { garamond } from "@/app/fonts"
-import classNames from "classnames"
 
 interface NavProps {
   links: { name: string; href: string }[]
@@ -23,7 +21,7 @@ const Nav: React.FC<NavProps> = ({ links }) => {
 
   return (
     <div className={styles.navContainer}>
-      <nav className={classNames(styles.nav, garamond.className)}>
+      <nav className={styles.nav}>
         {links.map((link) => (
           <div key={link.href} className={styles.navLinkContainer}>
             <Link href={link.href}>{link.name}</Link>

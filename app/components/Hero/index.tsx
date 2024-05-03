@@ -6,9 +6,7 @@ const Hero = () => (
   <h2 className={classNames(styles.hero)}>
     <div className={styles.spacer} />
     <div className={styles.heroText}>
-      <span className={classNames(styles.firstWord, garamond.className)}>
-        Retaliation{" "}
-      </span>
+      <span className={styles.firstWord}>Retaliation </span>
       <span className={classNames(styles.restOfHero, unica.className)}>
         in the media industry during the war on Gaza
       </span>
