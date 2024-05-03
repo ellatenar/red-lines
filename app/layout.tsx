@@ -1,10 +1,7 @@
 import type { Metadata } from "next"
-import { EB_Garamond } from "next/font/google"
 import "./globals.css"
 import Nav from "./components/Nav"
 import Ruler from "./components/Ruler"
-
-const garamond = EB_Garamond({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Red Lines",
@@ -28,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={garamond.className}>
+      <body>
         <Nav links={links} />
         <Ruler />
         {children}

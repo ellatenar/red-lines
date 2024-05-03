@@ -1,25 +1,19 @@
 import classNames from "classnames"
 import styles from "./Hero.module.css"
+import { garamond, unica } from "@/app/fonts"
 
 const Hero = () => (
-  <h2 className={styles.hero}>
-    <div className={styles.line}>
-      <span className={styles.text}>Censorship and</span>
-      <div className={classNames(styles.erased, styles.right)} />
+  <h2 className={classNames(styles.hero)}>
+    <div className={styles.spacer} />
+    <div className={styles.heroText}>
+      <span className={classNames(styles.firstWord, garamond.className)}>
+        Retaliation{" "}
+      </span>
+      <span className={classNames(styles.restOfHero, unica.className)}>
+        in the media industry during the war on Gaza
+      </span>
     </div>
-    <div className={styles.line}>
-      <div className={classNames(styles.erased, styles.left)} />
-      <span className={styles.text}>retaliation in the</span>
-    </div>
-    <div className={styles.line}>
-      <span className={styles.text}>media industry</span>
-      <div className={styles.erased} />
-      <span className={styles.text}>during</span>
-    </div>
-    <div className={styles.line}>
-      <div className={classNames(styles.erased, styles.left)} />
-      the genocide in Gaza
-    </div>
+    <div className={styles.spacer} />
   </h2>
 )
 

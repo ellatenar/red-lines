@@ -1,6 +1,6 @@
 .rulerContainer {
   border-bottom: 1px solid var(--color-gray);
-  background-color: var(--background-dark);
+  background-color: var(--color-background);
 }
 
 .ruler {

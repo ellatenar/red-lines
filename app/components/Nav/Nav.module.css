@@ -1,6 +1,6 @@
 .navContainer {
   width: 100%;
-  background-color: var(--background-dark);
+  background-color: var(--color-background);
 }
 
 .nav {
@@ -17,6 +17,11 @@
 .navLinkContainer {
   display: flex;
   flex-flow: column nowrap;
+}
+
+.navLinkContainer a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .pointer {

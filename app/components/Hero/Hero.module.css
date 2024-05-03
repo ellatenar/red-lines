@@ -1,48 +1,37 @@
 .hero {
-  color: var(--color-white);
+  color: var(--color-red);
   font-weight: 400;
   font-size: 3rem;
-  width: 35rem;
+  max-width: 35rem;
   margin: 1rem auto;
+  text-align: justify;
+  padding: 0.5rem 0;
 }
 
-.line {
-  display: flex;
+.spacer {
+  width: 10rem;
+  border-top: 1px solid var(--color-red);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text {
-  flex: 0 1 auto;
+.heroText {
+  padding: 1rem 0;
 }
 
-.erased {
-  flex: 1 1 auto;
-  height: 3rem;
-  display: inline-flex;
+.firstWord {
+  color: var(--color-white);
+  background-color: var(--color-background);
+  font-style: italic;
+  font-size: 3.5rem;
+}
+
+.restOfHero {
   background-color: var(--color-black);
-  margin: 12px 12px 0;
 }
 
-.left {
-  margin-left: 0;
-}
-
-.right {
-  margin-right: 0;
-}
-
-@media (max-width: 860px) {
+@media (max-width: 811px) {
   .hero {
-    width: 80%;
-    font-size: 2rem;
-  }
-
-  .erased {
-    height: 2rem;
-  }
-}
-
-@media (max-width: 760px) {
-  .hero {
-    font-size: 2rem;
+    text-align: unset;
   }
 }

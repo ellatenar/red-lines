@@ -1,10 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-emphasis: Arial, Helvetica, sans-serif;
 
-  --color-title: #bc4a56;
-  --background-dark: #313d37;
+  --color-red: #be4a57;
+  --color-background: #344239;
   --color-black: #000101;
   --color-white: #fff;
   --color-gray: #707070;
@@ -38,8 +37,7 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--color-red);
 }
 
 @media (prefers-color-scheme: dark) {
