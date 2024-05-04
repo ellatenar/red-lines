@@ -27,7 +27,12 @@ const Nav: React.FC<NavProps> = ({ links }) => {
 
   return (
     <div className={styles.navContainer}>
-      <div className={classNames(openMenu && styles.bgContainer)}>
+      <div
+        className={classNames(
+          styles.bgContainer,
+          openMenu && styles.openBgContainer
+        )}
+      >
         <div
           className={classNames(
             styles.hamburger,

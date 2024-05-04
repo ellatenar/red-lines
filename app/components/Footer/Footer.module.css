@@ -6,6 +6,26 @@
   padding: 12px;
 }
 
+.logoContainer {
+  margin-bottom: 1rem;
+}
+
+.fspLogo,
+.nwuLogo {
+  display: inline;
+}
+
+.fspLogo {
+  height: 18%;
+  width: 18%;
+  margin-left: 12px;
+}
+
+.nwuLogo {
+  height: 18%;
+  width: 72%;
+}
+
 .footer > div {
   width: 70%;
   max-width: 40rem;
@@ -13,14 +33,24 @@
   margin-right: auto;
 }
 
-.footer > div > div:nth-child(1) {
-  margin-left: 0;
+.attribution {
+  margin-left: 10%;
 }
 
-.footer > div > div:nth-child(2) {
-  margin-left: 22%;
+.georgia {
+  margin-left: 50%;
 }
 
-.footer > div > div:nth-child(3) {
-  margin-left: 44%;
+.ella {
+  margin-left: 33%;
+}
+
+@media screen and (max-width: 660px) {
+  .footer > div {
+    width: 100%;
+  }
+
+  .logoContainer {
+    margin-left: 24px;
+  }
 }

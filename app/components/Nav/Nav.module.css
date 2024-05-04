@@ -11,6 +11,9 @@
   position: fixed;
   width: 100vw;
   height: 12rem;
+}
+
+.openBgContainer {
   background-color: var(--color-black);
   mix-blend-mode: hard-light;
   z-index: 10;
@@ -101,6 +104,15 @@
 @media screen and (min-width: 660px) {
   .navContainer {
     height: 6rem;
+  }
+
+  .bgContainer {
+    position: static;
+    width: 100vw;
+    height: 12rem;
+    background-color: unset;
+    mix-blend-mode: unset;
+    z-index: 1;
   }
 
   .hamburger {
