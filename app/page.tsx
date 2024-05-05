@@ -4,7 +4,7 @@ import SectionDark from "./components/SectionDark"
 import PullQuote from "./components/PullQuote"
 import { Heading, Subheading } from "./components/Headings"
 import Button from "./components/Button"
-import { links } from "./layout"
+import { links } from "./links"
 
 export default function Home() {
   return (
