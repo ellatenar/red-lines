@@ -1,22 +1,3 @@
 .graphicsContainer {
   position: relative;
 }
-
-.graphic {
-  position: absolute;
-  max-height: 40rem;
-  height: 50rem;
-  width: 35rem;
-}
-
-.graphicsContainer > .graphic:nth-child(1) {
-  /* top: 0rem; */
-}
-
-.graphicsContainer > .graphic:nth-child(2) {
-  /* top: 30rem; */
-}
-
-.graphicsContainer > .graphic:nth-child(3) {
-  /* top: 60rem; */
-}

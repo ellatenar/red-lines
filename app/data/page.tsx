@@ -1,13 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from "./Data.module.css"
 import Image from "next/image"
-import graphic1 from "@/public/images/retaliation_graphic_who.png"
+import graphic1 from "@/public/images/retaliation_graphic_what_forms.png"
 import graphic2 from "@/public/images/retaliation_graphic_how_many.png"
-import graphic3 from "@/public/images/retaliation_graphic_what_forms.png"
+import graphic3 from "@/public/images/retaliation_graphic_who.png"
 import SectionDark from "../components/SectionDark"
 import PullQuote from "../components/PullQuote"
 import { Heading, Subheading } from "../components/Headings"
 import { Metadata } from "next"
+import WhatForms from "../components/Graphics/WhatForms"
+import { StaticImport } from "next/dist/shared/lib/get-img-props"
 
 export const metadata: Metadata = {
   title: "Data",
@@ -18,17 +20,28 @@ export default function Data() {
     <main>
       <SectionDark>
         <Heading>The Data</Heading>
-        {/* <div className={styles.graphicsContainer}>
-          <div className={styles.graphic}>
-            <Image src={graphic1} alt="" layout="fill" objectFit="contain" />
-          </div>
-          <div className={styles.graphic}>
-            <Image src={graphic2} alt="" layout="fill" objectFit="contain" />
-          </div>
-          <div className={styles.graphic}>
-            <Image src={graphic3} alt="" layout="fill" objectFit="contain" />
-          </div>
-        </div> */}
+        <div className={styles.graphicsContainer}>
+          <Image
+            src={graphic1}
+            alt=""
+            style={{ width: "100%", height: "auto" }}
+          />
+
+          <Image
+            src={graphic2}
+            alt=""
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
+
+          <Image
+            src={graphic3}
+            alt=""
+            style={{ width: "100%", height: "auto" }}
+          />
+        </div>
         <Subheading>Summary of Results</Subheading>
         <p>
           NWU’s investigation identified widespread retaliation against media

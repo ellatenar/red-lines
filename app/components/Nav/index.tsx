@@ -9,7 +9,7 @@ import { useEffect, useState } from "react"
 import classNames from "classnames"
 
 interface NavProps {
-  links: { name: string; href: string }[]
+  links: { name: string; href: string; download?: boolean }[]
 }
 
 const Nav: React.FC<NavProps> = ({ links }) => {
@@ -55,7 +55,13 @@ const Nav: React.FC<NavProps> = ({ links }) => {
         <nav className={classNames(styles.nav, openMenu && styles.openNav)}>
           {links.map((link) => (
             <div key={link.href} className={styles.navLinkContainer}>
-              <Link href={link.href}>{link.name}</Link>
+              <Link
+                href={link.href}
+                download={link.download}
+                target={link.download ? "_blank" : ""}
+              >
+                {link.name}
+              </Link>
               {currentPage === link.href && (
                 <Image
                   priority

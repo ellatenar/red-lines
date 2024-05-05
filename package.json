@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@octokit/core": "^6.1.2",
     "classnames": "^2.5.1",
     "next": "14.1.0",
     "next-bg-image": "^0.3.0",

@@ -65,6 +65,29 @@ a {
   text-decoration: var(--color-red) underline;
 }
 
+a:link {
+  color: var(--color-white);
+}
+
+a:visited {
+  color: red;
+}
+
+a:focus {
+  text-decoration: none;
+  background: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background: var(--color-black);
+}
+
+a:active {
+  background: darkred;
+  color: seagreen;
+}
+
 @media screen and (max-width: 660px) {
   h1 {
     font-size: 2rem;

@@ -21,6 +21,11 @@ const links = [
   { name: "Discussion", href: "/discussion" },
   { name: "Recommendations", href: "/recommendations" },
   { name: "Methodology", href: "/methodology" },
+  {
+    name: "Download Report",
+    href: "/public/05022024_RedLinesReport_Final.pdf",
+    download: true,
+  },
 ]
 
 export default function RootLayout({

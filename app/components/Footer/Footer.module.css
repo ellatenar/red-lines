@@ -35,7 +35,11 @@
 }
 
 .attribution {
-  margin-left: 10%;
+  margin-left: 0;
+}
+
+.timestamp {
+  margin-left: 30%;
 }
 
 .georgia {
@@ -43,7 +47,7 @@
 }
 
 .ella {
-  margin-left: 33%;
+  margin-left: 45%;
 }
 
 @media screen and (max-width: 660px) {
@@ -53,5 +57,28 @@
 
   .logoContainer {
     margin-left: 24px;
+  }
+
+  .attribution a,
+  .georgia a,
+  .ella a {
+    white-space: nowrap;
+  }
+
+  .attribution {
+    text-align: center;
+  }
+
+  .timestamp {
+    text-align: right;
+    margin-left: 30%;
+  }
+
+  .georgia {
+    margin-left: 10%;
+  }
+
+  .ella {
+    margin-left: 22%;
   }
 }
