@@ -35,7 +35,10 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={unica.className}>
         <div className={styles.logoContainer}>
-          <a href="https://freelancesolidarity.org/">
+          <a
+            className={styles.logoLink}
+            href="https://freelancesolidarity.org/"
+          >
             <Image
               src={FSPLogo}
               alt="FSP logo"
@@ -44,7 +47,7 @@ export default function Footer() {
               height={100}
             />
           </a>
-          <a href="https://nwu.org/">
+          <a className={styles.logoLink} href="https://nwu.org/">
             <Image
               src={NWULogo}
               alt="NWU logo"

@@ -11,6 +11,10 @@
   margin-bottom: 1rem;
 }
 
+a.logoLink:hover {
+  background: revert;
+}
+
 .fspLogo,
 .nwuLogo {
   display: inline;
