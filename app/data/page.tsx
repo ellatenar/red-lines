@@ -8,13 +8,14 @@ import graphic3 from "@/public/images/retaliation_graphic_what_forms.png"
 import SectionDark from "../components/SectionDark"
 import SectionLight from "../components/SectionLight"
 import PullQuote from "../components/PullQuote"
+import { Heading, Subheading } from "../components/Headings"
 
 export default function Data() {
   return (
     <main>
       <SectionDark>
-        <h1 className={unica.className}>The Data</h1>
-        <div className={styles.graphicsContainer}>
+        <Heading>The Data</Heading>
+        {/* <div className={styles.graphicsContainer}>
           <div className={styles.graphic}>
             <Image src={graphic1} alt="" layout="fill" objectFit="contain" />
           </div>
@@ -24,8 +25,8 @@ export default function Data() {
           <div className={styles.graphic}>
             <Image src={graphic3} alt="" layout="fill" objectFit="contain" />
           </div>
-        </div>
-        <h3 className={unica.className}>Summary of Results</h3>
+        </div> */}
+        <Subheading>Summary of Results</Subheading>
         <p>
           NWU’s investigation identified widespread retaliation against media
           workers in response to the perception that they support the
@@ -122,9 +123,9 @@ export default function Data() {
           The following sections discuss the results in greater detail and
           highlight some central themes, takeaways, and recommendations.
         </p>
-        <h3 className={unica.className}>
+        <Subheading>
           Termination, Resignation, and Cancellation of Assignments
-        </h3>
+        </Subheading>
         <p>
           Two editors-in-chief, a longtime contract{" "}
           <a href="https://www.bbc.com/news/entertainment-arts-67122609">
@@ -184,7 +185,7 @@ export default function Data() {
             inclusive?
           </q>
           <br />
-          —Zahraa Al-Akhrass
+          <span>—Zahraa Al-Akhrass</span>
         </PullQuote>
         <p>
           Some media workers were coerced or pressured by their employers to
@@ -244,9 +245,10 @@ export default function Data() {
           <q>
             If an institution is not willing to give you a job, then what do you
             owe them? ... In some way, it was a small amount of protest over the
-            labor conditions in the industry at large.”
+            labor conditions in the industry at large.
           </q>
-          - Jamie Lauren Keiles
+          <br />
+          <span>—Jamie Lauren Keiles</span>
         </PullQuote>
         <p>
           One U.S. freelancer, who requested anonymity, told NWU that a local
@@ -275,7 +277,7 @@ export default function Data() {
           </a>{" "}
           legal action against the company.
         </p>
-        <h3 className={unica.className}>Assignment Restrictions</h3>
+        <Subheading>Assignment Restrictions</Subheading>
         <p>
           Restricting the assignments of media workers perceived as biased was
           another common disciplinary measure. As defined in this report,
@@ -326,10 +328,9 @@ export default function Data() {
           strong-held tenet that our journalists’ personal agendas do not
           influence our reporting on news events,” he said.
         </p>
-
-        <h3 className={unica.className}>
+        <Subheading>
           Cancellation of Appearances and Events; Awards Rescinded
-        </h3>
+        </Subheading>
         <p>
           At least 10 media workers have had public appearances canceled or
           postponed. Most of the event cancellations appear to be responses to
@@ -405,8 +406,9 @@ export default function Data() {
             I would not want to be part of another institution which not only
             cancels artists because of their activism, but seems to think
             silence and censorship is the right answer to genocide.
-          </q>{" "}
-          —Lana Bastašić
+          </q>
+          <br />
+          <span>—Lana Bastašić</span>
         </PullQuote>
         <p>
           NWU documented two cases in which awards were rescinded for
@@ -437,6 +439,269 @@ export default function Data() {
             rescinded
           </a>{" "}
           in December for her public criticism of Israeli attacks on Gaza.
+        </p>
+        <Subheading>
+          Social Media Suppression, Online Harassment, and Doxxing
+        </Subheading>
+        <p>
+          Social media suppression was the most common type of retaliation in
+          our sample. Suppression ranged from newly restrictive company policies
+          about online posting and managers suspending workers for posts, to the
+          blocking of posts by social media platforms themselves. NWU documented
+          16 such cases that impacted dozens of workers. Some escalated to
+          online harassment and doxxing (publishing personal information online
+          with malicious intent). Pro-Israel social media accounts and actors
+          drove several cases of harassment and doxxing, and often accused the
+          affected media workers of antisemitism or supporting terrorism.
+        </p>
+        <p>
+          In one instance, Heba Macksoud, an Egyptian American Muslim woman
+          working as a digital media consultant for nonprofits, received a
+          torrent of online harassment and intimidation affecting her family’s
+          wellbeing after she posted “I stand with Palestine” on a New Jersey
+          neighborhood Facebook page. Locals posted information about where
+          members of Macksoud’s family worked, spammed the website of her
+          husband’s pharmacy with one-star reviews, and called her daughter’s
+          former employer to claim that her daughter was a Hamas supporter.
+          Macksoud is now hesitant to associate with organizations that support
+          Palestinians, has changed her last name and profile picture online,
+          and feels “terrified” to express herself on social media
+          again—especially after seeing a suspicious car parked outside her
+          house on a dead-end street for hours. Against the backdrop of
+          apparently{" "}
+          <a href="https://www.npr.org/2023/11/28/1215512722/theres-been-an-uptick-of-suspected-hate-crimes-in-the-u-s-since-israel-ham">
+            escalating
+          </a>{" "}
+          hate crimes and harassment against Arabs and Muslims, media workers of
+          these backgrounds have reason to fear for their safety and that of
+          their loved ones.
+        </p>
+        <p>
+          The Committee for Accuracy in Middle East Reporting and Analysis
+          (CAMERA), a group dedicated to combating what it claims to be
+          anti-Israel bias in the news, targeted the social media activity of
+          six Middle Eastern staff journalists and one freelancer for the BBC.
+          In response, the BBC{" "}
+          <a href="https://www.ft.com/content/c998bfa4-ad8e-4c61-9117-61a57aa9a92a">
+            launched
+          </a>{" "}
+          an “urgent investigation” into the posts and took the reporters off
+          the air, stating publicly that the freelancer named in CAMERA’s report
+          would not be hired for future projects. (Later, the BBC{" "}
+          <a href="https://dohanews.co/bbc-takes-no-disciplinary-action-against-journalists-after-probe-into-pro-palestine-posts/">
+            concluded
+          </a>{" "}
+          that no disciplinary action would be taken.)
+        </p>
+        <PullQuote right>
+          <q>
+            In calling me out they opened me up to a lot of racist abuse as
+            well. It put a target on my back… I’m a black girl, I’m a
+            freelancer, so it’s really easy for you to try to ruin my
+            livelihood.
+          </q>
+          <br />
+          <span>—Chanté Joseph</span>
+        </PullQuote>
+        <p>
+          In another case, an article by the outlet Jewish News{" "}
+          <a href="https://www.jewishnews.co.uk/guardian-journalist-retweets-pro-hamas-social-media-account/">
+            condemned
+          </a>{" "}
+          social media posts by freelancer and Guardian contributor Chanté
+          Joseph that criticized Israel. In the posts, Joseph pointed out that
+          violence has historically been used in liberation struggles, and{" "}
+          <a href="https://www.theguardian.com/world/2023/nov/10/israel-red-white-kidnapped-posters-flyers-palestine-conflict">
+            called
+          </a>{" "}
+          “missing” posters of Israeli hostages “propaganda.” In a comment to
+          Jewish News, Joseph apologized and said she’d deleted the posts. The
+          Guardian called the freelancer’s posts unacceptable and{" "}
+          <a href="https://novaramedia.com/2024/03/12/how-the-guardians-editor-in-chief-caved-to-pro-israel-pressure/">
+            announced
+          </a>{" "}
+          that Joseph’s weekly podcast was “taking a break.”
+        </p>
+        <p>
+          Joseph told NWU that in the wake of the Jewish News article she faced
+          extensive online harassment and was dropped by the UK magazine Stylist
+          as a speaker on a panel. “In calling me out they opened me up to a lot
+          of racist abuse as well. It put a target on my back,” she said. “We’re
+          low-hanging fruit—I’m a black girl, I’m a freelancer, so it’s really
+          easy for you to try to ruin my livelihood.”
+        </p>
+        <p>
+          In an effort to avoid allegations of bias, multiple organizations have
+          released new social media policies that typically leave management
+          with significant discretion to decide whom to discipline. For example,
+          The Guardian’s editor-in-chief, along with its senior U.S. and
+          Australian editors,{" "}
+          <a href="https://www.afr.com/companies/media-and-marketing/guardian-bans-open-letters-and-social-posts-amid-row-over-israel-20231204-p5eoz1">
+            announced
+          </a>{" "}
+          a new policy discouraging journalists from signing open letters or
+          posting statements on social media that “risk compromising our
+          editorial integrity.” According to the editors’ memo, “Senior editors
+          will decide on any appropriate action on a case by case basis.” Some
+          outlets are known to reprimand staffers and contributors for publicly
+          criticizing the organization they work for—or its coverage.
+        </p>
+        <p>
+          In at least one case, managers reprimanded a media worker for
+          critiquing media coverage of Palestine on a private Instagram account
+          (meaning it could only be viewed by approved followers). The staffer
+          was temporarily barred from working on stories related to Israel or
+          Palestine. They said that they are the only Muslim in their newsroom,
+          and that white coworkers were not initially reprimanded for signing
+          public letters supportive of Palestinians.
+        </p>
+        <Subheading>
+          Beyond Media: Repression in Academia, Art, and Related Workplaces
+        </Subheading>
+        <p>
+          Many media workers pay their bills by working for academic
+          institutions or arts organizations that have disciplined or cut ties
+          with those who criticize Israel and/or stand up for Palestinians. Over
+          the course of our data collection, we encountered several cases of
+          workers facing retaliation within the arts and academia. We did not
+          include those cases in our quantitative analysis because they took
+          place beyond the boundaries of the media industry. Nevertheless, they
+          follow similar patterns and merit further discussion.
+        </p>
+        <p>
+          Across the United States, students and academic workers have faced
+          {""}
+          <a href="https://www.stltoday.com/news/local/metro/wash-u-professor-said-he-was-fired-for-anti-palestinian-post-as-hundreds-protest-war/article_7a19fbc0-6b86-11ee-8d13-df96f0032447.html">
+            firing
+          </a>
+          ,{""}
+          <a href="https://www.reuters.com/world/us/us-professors-suspended-probed-over-gaza-war-comments-2023-11-17/">
+            suspension
+          </a>
+          ,{""}
+          <a href="https://vtdigger.org/2023/10/23/citing-safety-concerns-university-of-vermont-cancels-event-with-palestinian-writer/">
+            event cancellation
+          </a>
+          ,{""}
+          <a href="https://www.thenation.com/article/world/canary-mission-israel-covert-operations/"></a>
+          doxxing,{""}
+          <a href="https://www.huffpost.com/entry/palestinians-israel-social-media-job-firing_l_654bca09e4b0e3ecaf8bf964"></a>
+          social media suppression,{""}
+          <a href="https://www.npr.org/2023/12/15/1219434298/israel-hamas-gaza-palestinians-college-campus-free-speech"></a>
+          censorship, and{""}
+          <a href="https://www.aljazeera.com/news/2024/1/23/columbia-uni-bars-people-accused-of-spraying-pro-palestine-protesters"></a>
+          violence from police and counterprotesters. The most high-profile case
+          of academic retaliation may be that of former Harvard University
+          president Claudine Gay, who was{""}
+          <a href="https://www.thecrimson.com/article/2024/1/3/claudine-gay-resign-harvard/">
+            forced to resign
+          </a>
+          {""}due to pressure from powerful donors. There is no question of
+          intent: Conservative activist Christopher F. Rufo, a vocal opponent of
+          “critical race theory,”{" "}
+          <a href="https://manhattan.institute/person/christopher-f-rufo">
+            instigated
+          </a>{" "}
+          investigations by The Washington Free Beacon and others into
+          plagiarism in Gay’s academic publications, per his own{" "}
+          <a href="https://www.wsj.com/articles/how-we-squeezed-harvard-claudine-gay-firing-dei-antisemitism-culture-war-a6843c4c">
+            account
+          </a>{" "}
+          in the Wall Street Journal. The campaign{" "}
+          <a href="https://www.nytimes.com/2023/10/10/us/harvard-israel-gaza-hamas-reaction.html">
+            began
+          </a>{" "}
+          when Gay did not immediately refute a letter written by Palestine
+          solidarity groups at Harvard that blamed Israel for the October 7
+          Hamas attack. The specious plagiarism findings (i.e. nearly 50
+          instances of “inadequate citation”) became pretext for her removal.
+        </p>
+        <p>
+          NWU interviewed multiple workers in academia who described facing
+          retaliation based on their social media posts. Since October,{" "}
+          <a href="https://twitter.com/JJayEcon/status/1775622502972084645">
+            at
+          </a>{" "}
+          <a href="https://x.com/brandonshimoda/status/1778238396218917371">
+            least
+          </a>{" "}
+          <a href="https://www.columbiaspectator.com/news/2024/04/10/mailman-professor-abdul-kayum-ahmed-receives-letter-of-nonrenewal/">
+            three
+          </a>{" "}
+          adjunct academics in New York were told that their appointments would
+          not be renewed after speaking out in solidarity with Palestinians. A
+          U.S. poet and academic reported that a tweet they posted empathizing
+          with Palestinians led to harassing messages and physical threats.
+          After the school they worked for issued a public statement saying the
+          tweet was not in line with the university’s values, the worker
+          resigned from their teaching position and relocated to another part of
+          the country.{" "}
+        </p>
+        <p>
+          Meanwhile, Arnesa Buljušmić-Kustura, an author, genocide researcher,
+          and{" "}
+          <a href="https://www.theguardian.com/world/2024/jan/18/its-not-just-israel-on-trial-bosnian-war-survivors-support-for-genocide-case">
+            survivor
+          </a>{" "}
+          of the Bosnian genocide,{" "}
+          <a href="https://twitter.com/Rrrrnessa/status/1716819630583673259">
+            wrote
+          </a>{" "}
+          on X (formerly known as Twitter) that she was rejected from her dream
+          job following pro-Palestinian posts on social media, even though she
+          had already gone though six rounds of interviews.
+        </p>
+        <p>
+          In the art world, museums and galleries have{" "}
+          <a href="https://theintercept.com/2023/10/26/artforum-artists-gaza-ceasefire-martin-eisenberg/">
+            retaliated
+          </a>{" "}
+          against workers and{" "}
+          <a href="https://www.npr.org/2024/02/17/1232243208/indiana-university-abruptly-canceled-a-palestinian-artists-exhibit-its-now-sold-">
+            canceled
+          </a>{" "}
+          exhibitions. For example, Anishinaabe curator and author Wanda
+          Nanibush left her position at the Art Gallery of Ontario (AGO) after
+          the museum received a letter from the directors of Israel Museums and
+          Arts, Canada (IMAAC),{" "}
+          <a href="https://www.theglobeandmail.com/arts/article-indigenous-curator-ago-wanda-nanibush/">
+            accusing
+          </a>{" "}
+          Nanibush of “posting inflammatory, inaccurate rants against Israel.”
+          In a comment to Hyperallergic, a spokesperson for AGO{" "}
+          <a href="https://hyperallergic.com/857994/questions-arise-as-indigenous-curator-wanda-nanibush-suddenly-departs-toronto-art-gallery-of-ontario/">
+            called
+          </a>{" "}
+          Nanibush’s departure a “mutual decision.”
+        </p>
+        <p>
+          German institutions have been particularly aggressive in{" "}
+          <a href="https://www.artnews.com/art-news/news/germany-art-scene-israel-war-gaza-1234700551/">
+            canceling
+          </a>
+          events and exhibitions featuring cultural workers who criticize Israel
+          and/or stand up for Palestinians. For example, the Museum Folkwang in
+          Essen canceled an exhibition by Anaïs Duplan, after the trans Haitian
+          American writer and artist expressed support for Boycott, Divestment,
+          Sanctions (BDS) on social media. The museum{" "}
+          <a href="https://www.museum-folkwang.de/en/exhibition/we-future">
+            stated
+          </a>{" "}
+          that it was “solely because the curator personally takes sides with
+          the BDS campaign, which questions Israel’s right to exist.” In
+          response to Germany’s severe climate of censorship, an Instagram
+          account called{" "}
+          <a href="https://www.instagram.com/archive_of_silence/?hl=en">
+            Archive of Silence
+          </a>{" "}
+          has been{" "}
+          <a href="https://docs.google.com/spreadsheets/d/1Vq2tm-nopUy-xYZjkG-T9FyMC7ZqkAQG9S3mPWAYwHw/edit#gid=1227867224">
+            crowdsourcing and compiling
+          </a>{" "}
+          cases of repression of pro-Palestinian speech in the country, and more
+          than 4,000 people have signed onto “
+          <a href="https://strikegermany.org/">Strike Germany,</a>” a boycott of
+          German cultural institutions.{" "}
         </p>
       </SectionDark>
     </main>

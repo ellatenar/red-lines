@@ -1,16 +1,14 @@
 import styles from "./page.module.css"
 import Hero from "./components/Hero"
-import { unica } from "./fonts"
-import classNames from "classnames"
 import SectionDark from "./components/SectionDark"
-import SectionLight from "./components/SectionLight"
 import PullQuote from "./components/PullQuote"
+import { Heading, Subheading } from "./components/Headings"
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <SectionDark>
-        <h1 className={unica.className}>Red Lines</h1>
+        <Heading>Red Lines</Heading>
         <Hero />
         <div className={styles.intro}>
           In the months since October 7, Western media workers have faced a wave
@@ -21,9 +19,7 @@ export default function Home() {
           retaliation that impacted more than 100 media workers, who are
           disproportionately people of color.
         </div>
-        <h3 className={classNames(styles.subheader, unica.className)}>
-          About This Report
-        </h3>
+        <Subheading>About This Report</Subheading>
         <div className={styles.about}>
           <p>
             Since Hamas’s attack on October 7 and Israel’s subsequent military
@@ -200,10 +196,8 @@ export default function Home() {
           </p>
         </div>
 
-        <h3 className={classNames(styles.subheader, unica.className)}>
-          More Information and Opportunities for Action:
-        </h3>
-        <div>
+        <Subheading>More Information and Opportunities for Action:</Subheading>
+        <p>
           For updates on the Freelance Solidarity Project’s organizing around
           retaliation and violence against media workers, sign up{" "}
           <a href="https://forms.gle/URqowjyicoy8kYFA8">here</a>. To report an
@@ -214,7 +208,7 @@ export default function Home() {
             join the National Writers Union
           </a>
           .
-        </div>
+        </p>
       </SectionDark>
     </main>
   )

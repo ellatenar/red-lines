@@ -6,15 +6,23 @@ interface Props extends React.PropsWithChildren {
   left?: boolean
   right?: boolean
   serif?: boolean
+  noPadding?: boolean
 }
 
-const PullQuote: React.FC<Props> = ({ children, left, right, serif }) => (
+const PullQuote: React.FC<Props> = ({
+  children,
+  left,
+  right,
+  serif,
+  noPadding,
+}) => (
   <span
     className={classNames(
       styles.pullQuote,
       left && styles.pullQuoteLeft,
       right && styles.pullQuoteRight,
-      !serif && unica.className
+      !serif && unica.className,
+      noPadding && styles.noPadding
     )}
   >
     {children}

@@ -5,6 +5,14 @@
   font-size: 1.6rem;
 }
 
+.pullQuote q {
+  /* padding: 2rem; */
+}
+
+.pullQuote br + span {
+  text-align-last: end;
+}
+
 .pullQuoteRight {
   float: right;
   padding-right: 0;
@@ -13,6 +21,10 @@
 .pullQuoteLeft {
   float: left;
   padding-left: 0;
+}
+
+.noPadding {
+  padding: 0;
 }
 
 @media (max-width: 880px) {

@@ -2,13 +2,12 @@ import type { Metadata } from "next"
 import "./globals.css"
 import Nav from "./components/Nav"
 import Ruler from "./components/Ruler"
-import { garamond, unica } from "./fonts"
+import { garamond } from "./fonts"
 import Footer from "./components/Footer"
 
 export const metadata: Metadata = {
   title: "Red Lines",
-  description:
-    "Censorship and retaliation in the media industry during the genocide in Gaza",
+  description: "Retaliation in the Media Industry During Israel’s War on Gaza",
 }
 
 const links = [
