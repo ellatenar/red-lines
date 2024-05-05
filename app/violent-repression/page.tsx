@@ -2,6 +2,8 @@ import { Heading } from "../components/Headings"
 import PullQuote from "../components/PullQuote"
 import SectionDark from "../components/SectionDark"
 import { Metadata } from "next"
+import { links } from "../layout"
+import Button from "../components/Button"
 
 export const metadata: Metadata = {
   title: "Violent Repression",
@@ -211,6 +213,7 @@ export default function ViolentRepression() {
           to document the truth under the imminent risk of death and amid
           unimaginable suffering.
         </p>
+        <Button navItem={links[3]} />
       </SectionDark>
     </main>
   )

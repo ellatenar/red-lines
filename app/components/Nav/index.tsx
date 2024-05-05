@@ -8,8 +8,14 @@ import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import classNames from "classnames"
 
+export interface NavItem {
+  name: string
+  href: string
+  download?: boolean
+}
+
 interface NavProps {
-  links: { name: string; href: string; download?: boolean }[]
+  links: NavItem[]
 }
 
 const Nav: React.FC<NavProps> = ({ links }) => {

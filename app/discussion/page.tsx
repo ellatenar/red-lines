@@ -1,8 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
+import Button from "../components/Button"
 import { Heading, Subheading } from "../components/Headings"
 import PullQuote from "../components/PullQuote"
 import SectionDark from "../components/SectionDark"
 import { Metadata } from "next"
+import { links } from "../layout"
 
 export const metadata: Metadata = {
   title: "Discussion",
@@ -502,6 +504,7 @@ export default function Discussion() {
           <br />
           <span>—Zach Lennon-Simon</span>
         </PullQuote>
+        <Button navItem={links[4]} />
       </SectionDark>
     </main>
   )

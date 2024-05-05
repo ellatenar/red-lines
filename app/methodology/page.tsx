@@ -1,6 +1,8 @@
+import Button from "../components/Button"
 import { Heading, Subheading } from "../components/Headings"
 import SectionDark from "../components/SectionDark"
 import { Metadata } from "next"
+import { links } from "../layout"
 
 export const metadata: Metadata = {
   title: "Methodology",
@@ -163,6 +165,7 @@ export default function Methodology() {
           workers and collaborating organizations that shared their insights and
           feedback on our findings and recommendations.
         </p>
+        <Button navItem={links[6]} />
       </SectionDark>
     </main>
   )

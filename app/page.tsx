@@ -3,6 +3,8 @@ import Hero from "./components/Hero"
 import SectionDark from "./components/SectionDark"
 import PullQuote from "./components/PullQuote"
 import { Heading, Subheading } from "./components/Headings"
+import Button from "./components/Button"
+import { links } from "./layout"
 
 export default function Home() {
   return (
@@ -209,6 +211,7 @@ export default function Home() {
           </a>
           .
         </p>
+        <Button navItem={links[1]} />
       </SectionDark>
     </main>
   )

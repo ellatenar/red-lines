@@ -1,7 +1,9 @@
+import Button from "../components/Button"
 import { Heading, Subheading } from "../components/Headings"
 import PullQuote from "../components/PullQuote"
 import SectionDark from "../components/SectionDark"
 import { Metadata } from "next"
+import { links } from "../layout"
 
 export const metadata: Metadata = {
   title: "Recommendations",
@@ -438,6 +440,7 @@ export default function Recommendations() {
           involved, <a href="https://nwu.org/join-now/">join</a> the National
           Writers Union.
         </p>
+        <Button navItem={links[5]} />
       </SectionDark>
     </main>
   )

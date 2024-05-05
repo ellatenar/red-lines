@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   publisher: "National Writers Union and Freelance Solidarity Project",
 }
 
-const links = [
+export const links = [
   { name: "Home", href: "/" },
   { name: "Data", href: "/data" },
   { name: "Violent Repression", href: "/violent-repression" },

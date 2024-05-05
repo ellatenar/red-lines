@@ -8,6 +8,8 @@ import SectionDark from "../components/SectionDark"
 import PullQuote from "../components/PullQuote"
 import { Heading, Subheading } from "../components/Headings"
 import { Metadata } from "next"
+import { links } from "../layout"
+import Button from "../components/Button"
 
 export const metadata: Metadata = {
   title: "Data",
@@ -717,6 +719,7 @@ export default function Data() {
           <a href="https://strikegermany.org/">Strike Germany,</a>” a boycott of
           German cultural institutions.{" "}
         </p>
+        <Button navItem={links[2]} />
       </SectionDark>
     </main>
   )

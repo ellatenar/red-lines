@@ -1,2 +1,35 @@
+.buttonContainer {
+  display: block;
+  background-color: var(--color-red);
+  width: 11.5rem;
+  border-radius: 1.25rem;
+  padding: 5px;
+  margin-top: 2rem;
+}
+
 .button {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.text {
+  color: var(--color-white);
+  margin-left: 1rem;
+  font-style: italic;
+}
+
+.button img {
+  color: white;
+  margin-right: 3px;
+  padding: 5px 5px 5px 8px;
+}
+
+.spacer {
+  border-left: 3px solid var(--color-background);
+  position: absolute;
+  height: 3rem;
+  right: 30px;
 }
