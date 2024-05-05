@@ -8,8 +8,6 @@ import SectionDark from "../components/SectionDark"
 import PullQuote from "../components/PullQuote"
 import { Heading, Subheading } from "../components/Headings"
 import { Metadata } from "next"
-import WhatForms from "../components/Graphics/WhatForms"
-import { StaticImport } from "next/dist/shared/lib/get-img-props"
 
 export const metadata: Metadata = {
   title: "Data",
