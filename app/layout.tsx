@@ -4,6 +4,7 @@ import Nav from "./components/Nav"
 import Ruler from "./components/Ruler"
 import { garamond } from "./fonts"
 import Footer from "./components/Footer"
+import { links } from "./links"
 
 export const metadata: Metadata = {
   title: {
@@ -13,20 +14,6 @@ export const metadata: Metadata = {
   description: "Retaliation in the Media Industry During Israel’s War on Gaza",
   publisher: "National Writers Union and Freelance Solidarity Project",
 }
-
-export const links = [
-  { name: "Home", href: "/" },
-  { name: "Data", href: "/data" },
-  { name: "Violent Repression", href: "/violent-repression" },
-  { name: "Discussion", href: "/discussion" },
-  { name: "Recommendations", href: "/recommendations" },
-  { name: "Methodology", href: "/methodology" },
-  {
-    name: "Download Report",
-    href: "/public/05022024_RedLinesReport_Final.pdf",
-    download: true,
-  },
-]
 
 export default function RootLayout({
   children,

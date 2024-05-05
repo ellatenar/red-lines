@@ -8,7 +8,7 @@ import SectionDark from "../components/SectionDark"
 import PullQuote from "../components/PullQuote"
 import { Heading, Subheading } from "../components/Headings"
 import { Metadata } from "next"
-import { links } from "../layout"
+import { links } from "../links"
 import Button from "../components/Button"
 
 export const metadata: Metadata = {

@@ -2,7 +2,7 @@ import Button from "../components/Button"
 import { Heading, Subheading } from "../components/Headings"
 import SectionDark from "../components/SectionDark"
 import { Metadata } from "next"
-import { links } from "../layout"
+import { links } from "../links"
 
 export const metadata: Metadata = {
   title: "Methodology",
