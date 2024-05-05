@@ -1,6 +1,10 @@
 import { Heading, Subheading } from "../components/Headings"
 import SectionDark from "../components/SectionDark"
-import { unica } from "../fonts"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Methodology",
+}
 
 export default function Methodology() {
   return (

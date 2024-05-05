@@ -1,7 +1,11 @@
-import { Heading, Subheading } from "../components/Headings"
+import { Heading } from "../components/Headings"
 import PullQuote from "../components/PullQuote"
 import SectionDark from "../components/SectionDark"
-import { unica } from "../fonts"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Violent Repression",
+}
 
 export default function ViolentRepression() {
   return (
@@ -96,7 +100,7 @@ export default function ViolentRepression() {
           <a href="https://www.middleeasteye.net/news/israel-palestine-war-son-al-jazeera-bureau-chief-killed-air-strike">
             died
           </a>{" "}
-          in an Israeli airstrike on January 7. Even after Al-Dahdouh’s injuries
+          in an Israeli airstrike on January 7. Even after Al-Dahdouh’s injuries{" "}
           <a href="https://www.aljazeera.com/news/2024/1/17/al-jazeeras-gaza-bureau-chief-wael-dahdouh-in-qatar-for-medical-treatment">
             forced
           </a>{" "}
@@ -152,7 +156,7 @@ export default function ViolentRepression() {
           international law. The group reported that between October 7 and
           December 19, 84 journalists killed in Gaza were targets of “surgical”
           air strikes or sniper fire, meaning that either their homes or
-          reporting locations were directly targeted. In at least three cases
+          reporting locations were directly targeted. In at least three cases{" "}
           <a href="https://ccrjustice.org/sites/default/files/attach/2023/12/50-1_12-29-23_Palestine-Journalists-Syndicate-Amicus_w.pdf">
             documented
           </a>{" "}

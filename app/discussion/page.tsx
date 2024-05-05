@@ -2,7 +2,11 @@
 import { Heading, Subheading } from "../components/Headings"
 import PullQuote from "../components/PullQuote"
 import SectionDark from "../components/SectionDark"
-import { unica } from "../fonts"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Discussion",
+}
 
 export default function Discussion() {
   return (

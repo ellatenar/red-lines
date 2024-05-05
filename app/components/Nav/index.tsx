@@ -40,7 +40,14 @@ const Nav: React.FC<NavProps> = ({ links }) => {
           )}
           onClick={() => setOpenMenu((o) => !o)}
           tabIndex={0}
-          onKeyDown={(e) => e.key === "Enter" && setOpenMenu((o) => !o)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              setOpenMenu((o) => !o)
+            }
+            if (e.key === "Escape") {
+              setOpenMenu(false)
+            }
+          }}
         >
           <span className={styles.topBun}></span>
           <span className={styles.bottomBun}></span>

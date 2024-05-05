@@ -1,14 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
-import { unica } from "../fonts"
 import styles from "./Data.module.css"
 import Image from "next/image"
 import graphic1 from "@/public/images/retaliation_graphic_who.png"
 import graphic2 from "@/public/images/retaliation_graphic_how_many.png"
 import graphic3 from "@/public/images/retaliation_graphic_what_forms.png"
 import SectionDark from "../components/SectionDark"
-import SectionLight from "../components/SectionLight"
 import PullQuote from "../components/PullQuote"
 import { Heading, Subheading } from "../components/Headings"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Data",
+}
 
 export default function Data() {
   return (

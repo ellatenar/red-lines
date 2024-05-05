@@ -3,14 +3,11 @@
   font-weight: 600;
   padding: 2rem;
   font-size: 1.6rem;
+  position: relative;
 }
 
 .pullQuote q {
   /* padding: 2rem; */
-}
-
-.pullQuote br + span {
-  text-align-last: end;
 }
 
 .pullQuoteRight {

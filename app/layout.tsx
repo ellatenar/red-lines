@@ -6,8 +6,12 @@ import { garamond } from "./fonts"
 import Footer from "./components/Footer"
 
 export const metadata: Metadata = {
-  title: "Red Lines",
+  title: {
+    template: "%s | Red Lines",
+    default: "Red Lines",
+  },
   description: "Retaliation in the Media Industry During Israel’s War on Gaza",
+  publisher: "National Writers Union and Freelance Solidarity Project",
 }
 
 const links = [
