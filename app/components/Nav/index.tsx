@@ -56,6 +56,7 @@ const Nav: React.FC<NavProps> = ({ links }) => {
           {links.map((link) => (
             <div key={link.href} className={styles.navLinkContainer}>
               <Link
+                className={styles.navLink}
                 href={link.href}
                 download={link.download}
                 target={link.download ? "_blank" : ""}

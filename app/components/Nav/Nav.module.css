@@ -7,13 +7,17 @@
   display: none;
 }
 
+.navLinkContainer .navLink {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
 .nav a:visited {
   color: var(--color-white);
 }
 
 .nav a:active {
   background: unset;
-  color: unset;
 }
 
 .bgContainer {
