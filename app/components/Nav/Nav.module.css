@@ -11,6 +11,11 @@
   color: var(--color-white);
 }
 
+.nav a:active {
+  background: unset;
+  color: unset;
+}
+
 .bgContainer {
   position: fixed;
   width: 100vw;

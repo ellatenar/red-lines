@@ -60,17 +60,15 @@ h3 {
   margin: 2rem 0 1rem;
 }
 
-a {
-  color: var(--color-white);
-  text-decoration: var(--color-red) underline;
-}
-
+a,
 a:link {
   color: var(--color-white);
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-red);
 }
 
 a:visited {
-  color: red;
+  color: var(--color-red);
 }
 
 a:focus {
