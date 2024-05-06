@@ -1,0 +1,31 @@
+.subheadingContainer {
+  position: relative;
+}
+
+.shareButton {
+  all: unset;
+  position: absolute;
+  inset: -2rem;
+  cursor: pointer;
+}
+
+.share {
+  color: var(--color-white);
+}
+
+.copied {
+  animation: colorShift 1s;
+}
+
+@keyframes colorShift {
+  from {
+    color: red;
+  }
+  to {
+    color: white;
+  }
+}
+
+.share {
+  background-color: var(--color-background);
+}
