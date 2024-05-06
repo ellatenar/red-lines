@@ -24,29 +24,29 @@ export const Subheading: React.FC<Props> = ({ className, children, id }) => {
   const [copied, setCopied] = useState(false)
 
   return (
-    <div className={styles.subheadingContainer}>
-      {/* <button
-        className={classNames(styles.shareButton)}
-        onClick={() => {
-          navigator.clipboard.writeText(
-            `${BASE_URL}${path}${id ? `#${id}` : ""}`
-          )
-          setCopied(true)
-          setTimeout(() => setCopied(false), 5000)
-        }}
-      >
-        <Image
-          src={share}
-          alt="share"
-          priority
-          height={20}
-          width={20}
-          className={classNames(styles.share, copied && styles.copied)}
-        />
-      </button> */}
-      <h3 className={classNames(className, unica.className)} id={id}>
-        {children}
-      </h3>
-    </div>
+    <h3 className={classNames(className, unica.className)} id={id}>
+      {children}
+    </h3>
   )
+  // <div className={styles.subheadingContainer}>
+  //   <button
+  //     className={classNames(styles.shareButton)}
+  //     onClick={() => {
+  //       navigator.clipboard.writeText(
+  //         `${BASE_URL}${path}${id ? `#${id}` : ""}`
+  //       )
+  //       setCopied(true)
+  //       setTimeout(() => setCopied(false), 5000)
+  //     }}
+  //   >
+  //     <Image
+  //       src={share}
+  //       alt="share"
+  //       priority
+  //       height={20}
+  //       width={20}
+  //       className={classNames(styles.share, copied && styles.copied}
+  //     />
+  //   </button>
+  // </div>
 }
