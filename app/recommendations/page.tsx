@@ -69,7 +69,7 @@ export default function Recommendations() {
           by halting financial aid and weapons shipments that are used to{" "}
           <a href="https://www.vox.com/world-politics/2023/11/18/23966137/us-weapons-israel-biden-package-explained">
             kill
-          </a>
+          </a>{" "}
           Palestinians. Further, all incidents in which Israeli military actions
           have resulted in the deaths or injuries of journalists and their
           families need to be independently investigated. Finally, Israel must{" "}
@@ -212,7 +212,7 @@ export default function Recommendations() {
           what objectivity actually looks like—instead of{" "}
           <a href="https://www.washingtonpost.com/lifestyle/style/how-one-reporters-rejection-of-objectivity-got-him-fired/2017/02/01/bc5cc9c6-e7ef-11e6-80c2-30e57e57e05d_story.html">
             penalizing
-          </a>
+          </a>{" "}
           marginalized workers for speaking truth to power. At the same time
           that Middle Eastern, North African, and Muslim workers are facing
           discipline for perceived bias in their perspectives on Gaza, reporters
@@ -233,7 +233,7 @@ export default function Recommendations() {
           <a href="https://theintercept.com/2024/04/15/nyt-israel-gaza-genocide-palestine-coverage/">
             favor
           </a>{" "}
-          Israeli perspectives, or in allowing the IDF’s military censor to
+          Israeli perspectives, or in allowing the IDF’s military censor to{" "}
           <a href="https://theintercept.com/2024/01/04/cnn-israel-gaza-idf-reporting/">
             review
           </a>{" "}
@@ -392,7 +392,7 @@ export default function Recommendations() {
             efforts
           </a>{" "}
           by the International Federation of Journalists and the Palestinian
-          Journalists Syndicate for the International Criminal Court to
+          Journalists Syndicate for the International Criminal Court to{" "}
           <a href="https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-icc-case-filed-over-systematic-targeting-of-palestinian-journalists">
             investigate
           </a>{" "}
