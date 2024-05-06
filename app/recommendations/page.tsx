@@ -24,7 +24,7 @@ export default function Recommendations() {
           organizations, organized workers play a key role in making these
           demands a reality.
         </p>
-        <Subheading>For Political Leaders:</Subheading>
+        <Subheading id={"1"}>For Political Leaders:</Subheading>
         <PullQuote noPadding>
           Institute an immediate and permanent ceasefire in Gaza, release all
           political prisoners, halt U.S. military funding for Israel, and
@@ -78,7 +78,7 @@ export default function Recommendations() {
           </a>{" "}
           its blockade on international journalists entering the Gaza Strip.
         </p>
-        <Subheading>For Western Media Outlets:</Subheading>
+        <Subheading id={"2"}>For Western Media Outlets:</Subheading>
         <PullQuote noPadding>
           Proactively hire, retain, and listen to media workers impacted by the
           war on Gaza.
@@ -283,7 +283,7 @@ export default function Recommendations() {
           Media organizations should voluntarily recognize union elections and
           bargain contracts in good faith.
         </p>
-        <Subheading>For Workers and Unions:</Subheading>
+        <Subheading id={"3"}>For Workers and Unions:</Subheading>
         <PullQuote noPadding>Organize a union at your workplace.</PullQuote>
         <p>
           Multiple cases in our analysis demonstrate the power of unions to
@@ -430,7 +430,9 @@ export default function Recommendations() {
           </a>{" "}
           and <a href="https://nwu.org/join-now/">join</a> the union.
         </p>
-        <Subheading>More Information and Opportunities for Action:</Subheading>
+        <Subheading id={"4"}>
+          More Information and Opportunities for Action:
+        </Subheading>
         <p>
           For updates on the Freelance Solidarity Project’s organizing around
           retaliation and violence against media workers,{" "}

@@ -21,7 +21,7 @@ export default function Home() {
           retaliation that impacted more than 100 media workers, who are
           disproportionately people of color.
         </div>
-        <Subheading>About This Report</Subheading>
+        <Subheading id={"1"}>About This Report</Subheading>
         <div className={styles.about}>
           <p>
             Since Hamas’s attack on October 7 and Israel’s subsequent military
@@ -198,7 +198,9 @@ export default function Home() {
           </p>
         </div>
 
-        <Subheading>More Information and Opportunities for Action:</Subheading>
+        <Subheading id={"2"}>
+          More Information and Opportunities for Action:
+        </Subheading>
         <p>
           For updates on the Freelance Solidarity Project’s organizing around
           retaliation and violence against media workers, sign up{" "}

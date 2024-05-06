@@ -41,7 +41,7 @@ export default function Methodology() {
           for such speech. NWU member-organizers drew two additional cases of
           retaliation from those survey results, interviewing each worker.
         </p>
-        <Subheading>Data Analysis</Subheading>
+        <Subheading id={"1"}>Data Analysis</Subheading>
         <p>
           To determine whether a case should be included in our data analysis,
           we first considered whether the case could be categorized as
@@ -112,7 +112,7 @@ export default function Methodology() {
           climate of fear that currently permeates the media industry,
           particularly surrounding any discussion of Israel and Palestine.
         </p>
-        <Subheading>Fact-checking</Subheading>
+        <Subheading id={"2"}>Fact-checking</Subheading>
         <p>
           All entries, including those drawn from NWU surveys, were reviewed by
           a team of professional fact-checkers. In cases drawn from interviews
@@ -156,7 +156,7 @@ export default function Methodology() {
           collective introspection, further organizing, and course correction
           wherever needed.
         </p>
-        <Subheading>Acknowledgements</Subheading>
+        <Subheading id={"3"}>Acknowledgements</Subheading>
         <p>
           This project was led by members of the National Writers Union,
           organizing with the Freelance Solidarity Project. More than two dozen

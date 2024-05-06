@@ -42,7 +42,7 @@ export default function Data() {
             style={{ width: "100%", height: "auto" }}
           />
         </div>
-        <Subheading>Summary of Results</Subheading>
+        <Subheading id={"1"}>Summary of Results</Subheading>
         <p>
           NWU’s investigation identified widespread retaliation against media
           workers in response to the perception that they support the
@@ -139,7 +139,7 @@ export default function Data() {
           The following sections discuss the results in greater detail and
           highlight some central themes, takeaways, and recommendations.
         </p>
-        <Subheading>
+        <Subheading id={"2"}>
           Termination, Resignation, and Cancellation of Assignments
         </Subheading>
         <p>
@@ -293,7 +293,7 @@ export default function Data() {
           </a>{" "}
           legal action against the company.
         </p>
-        <Subheading>Assignment Restrictions</Subheading>
+        <Subheading id={"3"}>Assignment Restrictions</Subheading>
         <p>
           Restricting the assignments of media workers perceived as biased was
           another common disciplinary measure. As defined in this report,
@@ -344,7 +344,7 @@ export default function Data() {
           strong-held tenet that our journalists’ personal agendas do not
           influence our reporting on news events,” he said.
         </p>
-        <Subheading>
+        <Subheading id={"4"}>
           Cancellation of Appearances and Events; Awards Rescinded
         </Subheading>
         <p>
@@ -356,7 +356,7 @@ export default function Data() {
         <p>
           Just hours before a scheduled book talk in October with Pulitzer
           Prize-winning author Viet Thanh Nguyen, the 92nd Street Y, a New York
-          cultural and community center, “postponed” the event. The institution
+          cultural and community center, “postponed” the event. The institution{" "}
           <a href="https://www.reuters.com/world/us/pulitzer-winner-who-backs-palestinians-says-talk-canceled-by-ny-jewish-2023-10-21/">
             referenced
           </a>{" "}
@@ -456,7 +456,7 @@ export default function Data() {
           </a>{" "}
           in December for her public criticism of Israeli attacks on Gaza.
         </p>
-        <Subheading>
+        <Subheading id={"5"}>
           Social Media Suppression, Online Harassment, and Doxxing
         </Subheading>
         <p>
@@ -571,7 +571,7 @@ export default function Data() {
           and that white coworkers were not initially reprimanded for signing
           public letters supportive of Palestinians.
         </p>
-        <Subheading>
+        <Subheading id={"6"}>
           Beyond Media: Repression in Academia, Art, and Related Workplaces
         </Subheading>
         <p>
@@ -585,35 +585,34 @@ export default function Data() {
           follow similar patterns and merit further discussion.
         </p>
         <p>
-          Across the United States, students and academic workers have faced
-          {""}
+          Across the United States, students and academic workers have faced{" "}
           <a href="https://www.stltoday.com/news/local/metro/wash-u-professor-said-he-was-fired-for-anti-palestinian-post-as-hundreds-protest-war/article_7a19fbc0-6b86-11ee-8d13-df96f0032447.html">
             firing
           </a>
-          ,{""}
+          ,{" "}
           <a href="https://www.reuters.com/world/us/us-professors-suspended-probed-over-gaza-war-comments-2023-11-17/">
             suspension
           </a>
-          ,{""}
+          ,{" "}
           <a href="https://vtdigger.org/2023/10/23/citing-safety-concerns-university-of-vermont-cancels-event-with-palestinian-writer/">
             event cancellation
           </a>
-          ,{""}
+          ,{" "}
           <a href="https://www.thenation.com/article/world/canary-mission-israel-covert-operations/"></a>
-          doxxing,{""}
+          doxxing,{" "}
           <a href="https://www.huffpost.com/entry/palestinians-israel-social-media-job-firing_l_654bca09e4b0e3ecaf8bf964"></a>
-          social media suppression,{""}
+          social media suppression,{" "}
           <a href="https://www.npr.org/2023/12/15/1219434298/israel-hamas-gaza-palestinians-college-campus-free-speech"></a>
-          censorship, and{""}
+          censorship, and{" "}
           <a href="https://www.aljazeera.com/news/2024/1/23/columbia-uni-bars-people-accused-of-spraying-pro-palestine-protesters"></a>
           violence from police and counterprotesters. The most high-profile case
           of academic retaliation may be that of former Harvard University
-          president Claudine Gay, who was{""}
+          president Claudine Gay, who was{" "}
           <a href="https://www.thecrimson.com/article/2024/1/3/claudine-gay-resign-harvard/">
             forced to resign
-          </a>
-          {""}due to pressure from powerful donors. There is no question of
-          intent: Conservative activist Christopher F. Rufo, a vocal opponent of
+          </a>{" "}
+          due to pressure from powerful donors. There is no question of intent:
+          Conservative activist Christopher F. Rufo, a vocal opponent of
           “critical race theory,”{" "}
           <a href="https://manhattan.institute/person/christopher-f-rufo">
             instigated
@@ -694,7 +693,7 @@ export default function Data() {
           German institutions have been particularly aggressive in{" "}
           <a href="https://www.artnews.com/art-news/news/germany-art-scene-israel-war-gaza-1234700551/">
             canceling
-          </a>
+          </a>{" "}
           events and exhibitions featuring cultural workers who criticize Israel
           and/or stand up for Palestinians. For example, the Museum Folkwang in
           Essen canceled an exhibition by Anaïs Duplan, after the trans Haitian

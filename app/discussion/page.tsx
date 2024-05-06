@@ -15,7 +15,7 @@ export default function Discussion() {
     <main>
       <SectionDark>
         <Heading>Discussion</Heading>
-        <Subheading>The Objectivity Double Standard</Subheading>
+        <Subheading id={"1"}>The Objectivity Double Standard</Subheading>
         <p>
           Media industry employers readily invoke “objectivity” as a
           professional responsibility. However, our analysis suggests that what
@@ -189,7 +189,7 @@ export default function Discussion() {
           </a>{" "}
           of Yasin. Unfortunately, examples like this are few and far between.
         </p>
-        <Subheading>Atmosphere of Fear</Subheading>
+        <Subheading id={"2"}>Atmosphere of Fear</Subheading>
         <p>
           We left several cases of potential retaliation out of our quantitative
           analysis, either due to their opacity or because we were unable to
@@ -358,7 +358,7 @@ export default function Discussion() {
           Israel/Palestine. That silent disconnect scares me,” the respondent
           continued.
         </p>
-        <Subheading>The Role of Social Media</Subheading>
+        <Subheading id={"3"}>The Role of Social Media</Subheading>
         <p>
           Engagement with social media platforms is a professional requirement
           for many media workers, yet these platforms also represent important
@@ -410,7 +410,7 @@ export default function Discussion() {
           threats of violence transmitted over social media are favored tools
           for followers of groups like StopAntisemitism.org and Canary Mission.
         </p>
-        <Subheading>The Power of Unions</Subheading>
+        <Subheading id={"4"}>The Power of Unions</Subheading>
         <p>
           A silver lining to the widespread repression of speech is the power
           unions have demonstrated in their efforts to protect workers from
