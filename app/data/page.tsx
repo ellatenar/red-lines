@@ -179,7 +179,7 @@ export default function Data() {
           </a>{" "}
           a satirical article from The Onion that called out many people’s
           indifference to the lives of Palestinians. Palestinian journalist
-          Zahraa Al-Akhrass was on maternity leave when Canada’s Global News
+          Zahraa Al-Akhrass was on maternity leave when Canada’s Global News{" "}
           <a href="https://www.cbc.ca/news/canada/chilling-effect-pro-palestinian-1.7064510">
             fired
           </a>{" "}

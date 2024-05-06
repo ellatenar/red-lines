@@ -72,7 +72,7 @@ export default function Recommendations() {
           </a>
           Palestinians. Further, all incidents in which Israeli military actions
           have resulted in the deaths or injuries of journalists and their
-          families need to be independently investigated. Finally, Israel must
+          families need to be independently investigated. Finally, Israel must{" "}
           <a href="https://pressgazette.co.uk/news/gaza-journalists-foreign-correspondents-israel-egypt-access/">
             end
           </a>{" "}
@@ -93,15 +93,13 @@ export default function Recommendations() {
           <a href="https://www.inquirer.com/news/agnes-irwin-fires-pro-palestine-employee-20220823.html">
             criticizing
           </a>{" "}
-          Israeli state action. It does not happen in a vacuum. Research
-          <a href="https://core.ac.uk/download/pdf/219378467.pdf">
-            suggests
-          </a>{" "}
+          Israeli state action. It does not happen in a vacuum. Research{" "}
+          <a href="https://core.ac.uk/download/pdf/219378467.pdf">suggests</a>{" "}
           that Muslims and Arabs are among the most dehumanized groups in the
           United States and that hatred towards these groups tends to{" "}
           <a href="https://freelancesolidarity.org/events/behind-enemy-lines/">
             rise
-          </a>
+          </a>{" "}
           following certain types of terrorist attacks, as it{" "}
           <a href="https://news.gallup.com/poll/157082/islamophobia-understanding-anti-muslim-sentiment-west.aspx">
             did
@@ -207,7 +205,7 @@ export default function Recommendations() {
           <a href="https://www.pewresearch.org/journalism/2022/06/14/journalists-give-industry-mixed-reviews-on-newsroom-diversity-lowest-marks-in-racial-and-ethnic-diversity/">
             claim
           </a>{" "}
-          to be striving for increased diversity, media organizations must
+          to be striving for increased diversity, media organizations must{" "}
           <a href="https://www.nytimes.com/2020/06/23/opinion/objectivity-black-journalists-coronavirus.html">
             rethink
           </a>{" "}
@@ -227,7 +225,7 @@ export default function Recommendations() {
           <a href="https://lithub.com/journalism-as-a-front-of-war-on-american-media-and-the-ideology-of-the-status-quo/">
             cover
           </a>{" "}
-          sensitive stories repeatedly. In some cases, bias is
+          sensitive stories repeatedly. In some cases, bias is{" "}
           <a href="https://www.readthemaple.com/western-media-doesnt-want-you-to-read-the-word-palestine/">
             institutionalized
           </a>
@@ -360,7 +358,7 @@ export default function Recommendations() {
           reforms to bear and broadening their reach, including at the{" "}
           <a href="https://www.nelp.org/cities-are-working-to-end-another-legacy-of-slavery-at-will-employment/">
             local
-          </a>
+          </a>{" "}
           level. Staff unions should reach out to non-unionized and freelance
           media workers, including those organizing with NWU, to build
           industry-wide support systems that protect the most vulnerable workers
@@ -424,7 +422,7 @@ export default function Recommendations() {
           and targeting, unless freelancers organize to protect themselves and
           one another. Freelance media workers should get in touch with the
           Freelance Solidarity Project, organized under the Digital Media
-          Division of the National Writers Union, at
+          Division of the National Writers Union, at{" "}
           <a href="mailto:freelance.solidarity.project@gmail.com">
             freelance.solidarity.project@gmail.com
           </a>{" "}

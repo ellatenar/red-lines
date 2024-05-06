@@ -21,7 +21,7 @@ export default function Discussion() {
           professional responsibility. However, our analysis suggests that what
           counts as “objective” and what is deemed biased depends on factors
           including the background and identity of the worker; the prejudices of
-          management; and external pro-Israel individuals and advocacy groups
+          management; and external pro-Israel individuals and advocacy groups{" "}
           <a href="https://www.thenation.com/article/world/canary-mission-israel-covert-operations/">
             exerting
           </a>{" "}
@@ -51,7 +51,7 @@ export default function Discussion() {
             derailed
           </a>{" "}
           an episode of one of the publication’s podcasts, The Daily, according
-          to The Intercept. The Times responded to The Intercept’s report by
+          to The Intercept. The Times responded to The Intercept’s report by{" "}
           <a href="https://www.vanityfair.com/news/new-york-times-israel-gaza-leak">
             launching
           </a>{" "}
@@ -64,7 +64,7 @@ export default function Discussion() {
             uncovered
           </a>{" "}
           that one of the reporters on the New York Times story was an Israeli
-          filmmaker with no prior investigative journalism experience, who had
+          filmmaker with no prior investigative journalism experience, who had{" "}
           <a href="https://www.thedailybeast.com/new-york-times-reviewing-reporter-anat-schwartz-for-liking-gaza-slaughterhouse-tweet">
             liked
           </a>{" "}
@@ -145,7 +145,7 @@ export default function Discussion() {
           social media posts criticizing Israel as antisemitic. Data{" "}
           <a href="https://abcnews.go.com/US/anti-muslim-anti-jewish-incidents-rise/story?id=104760450">
             suggest
-          </a>
+          </a>{" "}
           that incidents of antisemitism, Islamophobia, and anti-Arab bias have
           all risen since October 7. At the same time, the conflation between
           antisemitism and anti-Israel sentiment has allowed the former to be
@@ -444,7 +444,7 @@ export default function Discussion() {
           , a unit under Writers Guild of America, East, organized{" "}
           <a href="https://twitter.com/HearstUnion/status/1721633537609060457">
             pushback
-          </a>
+          </a>{" "}
           against the policy. Union members filed an unfair labor practices
           complaint with the National Labor Relations Board and encouraged
           workers to refuse to sign the egregious policy. In the end, the
