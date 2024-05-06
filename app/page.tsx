@@ -116,60 +116,7 @@ export default function Home() {
             masse.
           </p>
           <p>
-            As this report goes live, at least 102 Palestinian, four Israeli,
-            and three Lebanese media workers have been killed in the region
-            since October 7, according to the International Federation of
-            Journalists (IFJ). The Israeli military has shown a blatant
-            disregard for the lives of media workers in Gaza. In fact, there is
-            clear evidence that the Israeli military has intentionally targeted
-            those wearing press vests. For example, on October 13, Israeli
-            forces targeted and killed a journalist and wounded six others,
-            according to investigations from Reuters, AFP, Human Rights Watch,
-            and Amnesty International. As a sister union of the Palestinian
-            Journalists Syndicate, NWU condemns the deadly violence, smear
-            campaigns, and deprivation that the Israeli state is currently
-            inflicting on journalists in the entire Occupied Palestinian
-            Territory and the surrounding region.
-          </p>
-          <p>
-            The range of cases compiled in this report were drawn from news
-            reports, social media posts, phone calls, and/or messages exchanged
-            with affected individuals, as well as two surveys administered by
-            NWU. The first survey asked workers to share their experiences of
-            workplace retaliation for their support of Palestinians or view of
-            the war on Gaza; the second asked workers whether and how they have
-            self-censored speech on Israel and Palestine in response to the
-            threat of retaliation. Every case included in the quantitative
-            analysis was fact-checked. Incidents that could not be verified were
-            left out of that analysis, as were incidents of potential
-            retaliation that occurred or came to light after February 1. (At
-            least one such case has resulted in a lawsuit.) While the report’s
-            findings are not comprehensive, they offer a window into what is
-            likely a much more widespread, systemic phenomenon that did not
-            start in October 2023.
-          </p>
-          <p>
-            The sample of impacted workers is as diverse as NWU’s membership,
-            including freelancers, staffers, two editors-in-chief, early-career
-            journalists, audio workers, a playwright, a Pulitzer-prize winning
-            author, and media workers publishing with corporate, nonprofit, and
-            academic organizations. The majority of cases concern media workers
-            in the United States, yet given NWU’s international membership, they
-            also include people from around the world, employed by outlets in
-            Australia, Canada, the United Kingdom, and countries in Europe.
-          </p>
-          <p>
-            In the West, there is a long history of suppressing Palestinian
-            voices and viewpoints critical of Israel. But since October 7, this
-            suppression has become one of the most urgent issues facing media
-            workers. While Western media workers who have ties to the Middle
-            East and North Africa and offer distinct insight into the war on
-            Gaza are being muzzled and reprimanded—prevented from doing their
-            jobs—Palestinian journalists on the ground are being killed en
-            masse.
-          </p>
-          <p>
-            As this report goes live, at least 102 Palestinian, four Israeli,
+           As this report goes live, at least 102 Palestinian, four Israeli,
             and three Lebanese media workers have been{" "}
             <a href="https://www.ifj.org/war-in-gaza">killed</a> in the region
             since October 7, according to the International Federation of
